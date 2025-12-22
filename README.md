@@ -10,6 +10,7 @@ NOTE: The solution is implemented using Azure ML SDK v2 in code (VS Code), while
 
 
 🎯 Project Goals
+
 	•	Build a reproducible, scalable ML pipeline using Azure ML
 	•	Handle healthcare-specific preprocessing and PII considerations
 	•	Train and evaluate a Gradient Boosting model
