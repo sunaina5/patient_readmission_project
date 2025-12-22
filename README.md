@@ -52,9 +52,9 @@ NOTE: The solution is implemented using Azure ML SDK v2 in code (VS Code), while
 	•	Algorithm: Gradient Boosting Classifier (scikit-learn)
 	•	Problem Type: Binary classification (Readmitted / Not Readmitted)
 	•	Evaluation Metrics:
-	•	AUC-ROC
-	•	F1-Score
-	•	Precision-Recall Curve
+	   •	AUC-ROC
+	   •	F1-Score
+	   •	Precision-Recall Curve
 
 
 
