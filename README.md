@@ -79,5 +79,5 @@ NOTE: The solution is implemented using Azure ML SDK v2 in code (VS Code), while
 	•	Azure ML Managed Online Endpoint
 	•	Token-based authentication
 	•	Real-time prediction API returning:
-	•	Readmission probability
-	•	Risk label (“High Risk” / “Low Risk”)
+	   •	Readmission probability
+	   •	Risk label (“High Risk” / “Low Risk”)
