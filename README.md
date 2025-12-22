@@ -36,3 +36,20 @@ Model Registration (threshold-based)
    ↓  
    
 Managed Online Endpoint (real-time inference)
+
+
+📂 Project Structure
+
+patient_readmission_project/
+├── src/
+│   ├── prep.py          # Data cleaning, PII handling, feature engineering
+│   ├── train.py         # Model training + MLflow logging
+│   ├── register.py      # Conditional model registration
+│   └── score.py         # Inference logic for deployment
+│
+├── environment/
+│   └── Dockerfile       # Custom Azure ML environment
+│
+├── main.py              # Azure ML SDK v2 orchestration script
+├── README.md
+└── .gitignore
