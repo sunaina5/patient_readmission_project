@@ -21,10 +21,14 @@ NOTE: The solution is implemented using Azure ML SDK v2 in code (VS Code), while
 
 Raw Data
    ↓
+   
 Data Preparation (PII handling, encoding)
    ↓   
+   
 Model Training (Gradient Boosting + MLflow)
    ↓   
+   
 Model Registration (threshold-based)
    ↓  
+   
 Managed Online Endpoint (real-time inference)
