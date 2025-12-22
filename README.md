@@ -46,3 +46,38 @@ NOTE: The solution is implemented using Azure ML SDK v2 in code (VS Code), while
         ├── main.py              # Azure ML SDK v2 orchestration script
         ├── README.md
         └── .gitignore
+
+🧪 Model Details
+
+	•	Algorithm: Gradient Boosting Classifier (scikit-learn)
+	•	Problem Type: Binary classification (Readmitted / Not Readmitted)
+	•	Evaluation Metrics:
+	•	AUC-ROC
+	•	F1-Score
+	•	Precision-Recall Curve
+
+
+
+🔐 Data Privacy & PII Handling
+
+	•	Patient identifiers are removed or anonymized during preprocessing
+	•	Only non-identifiable clinical and demographic features are used
+	•	Designed with healthcare data governance best practices in mind
+
+
+
+🐳 Environment & Reproducibility
+
+	•	Custom Docker environment built on Azure ML base images
+	•	Explicit dependency versions for consistent training and inference
+	•	Same environment used across pipeline stages and deployment
+
+
+
+🚀 Deployment
+	
+	•	Azure ML Managed Online Endpoint
+	•	Token-based authentication
+	•	Real-time prediction API returning:
+	•	Readmission probability
+	•	Risk label (“High Risk” / “Low Risk”)
