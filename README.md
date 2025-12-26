@@ -14,8 +14,8 @@
     scikit-learn, pandas, and numpy used during local training.
 
 
-    🛠️ Tech Stack & Tools
-    1. Machine Learning: Python, Scikit-learn (Gradient Boosting Classifier).
-    2. Cloud Platform: Azure Machine Learning (SDK v2).
-    3. Deployment: Managed Online Endpoints, Docker.
-    4. IDE: VS Code with Azure ML Extension.
+🛠️ Tech Stack & Tools
+1. Machine Learning: Python, Scikit-learn (Gradient Boosting Classifier).
+2. Cloud Platform: Azure Machine Learning (SDK v2).
+3. Deployment: Managed Online Endpoints, Docker.
+4. IDE: VS Code with Azure ML Extension.
