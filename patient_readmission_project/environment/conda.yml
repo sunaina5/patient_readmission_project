@@ -1,0 +1,22 @@
+name: patient-readmission-env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - numpy=1.25.2        # 🔒 pin
+  - pandas=2.0.3        # 🔒 pin
+  - scikit-learn=1.3.0  # 🔒 already pinned
+  - matplotlib
+  - joblib
+  - pip
+
+  - pip:
+      - mlflow==2.14.1
+      - azureml
+      - azureml-inference-server-http
+      - xgboost           # ✅ kept
+      - flask<3.0.0       # ✅ kept
+      - werkzeug<3.0.0    # ✅ kept
+      
