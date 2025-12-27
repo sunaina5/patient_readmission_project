@@ -46,3 +46,23 @@ Official Dataset Source
     2. Cloud Platform: Azure Machine Learning (SDK v2).
     3. Deployment: Managed Online Endpoints, Docker.
     4. IDE: VS Code with Azure ML Extension.
+
+### 📊 Project Proof of Work
+
+#### End-to-End Training Pipeline
+This pipeline illustrates the automated workflow from data ingestion to model evaluation within Azure Machine Learning.
+
+![Training Pipeline](Pipeline.png)
+
+#### Model Deployment & Performance
+![Confusion Matrix](Confusion%20Matrix.png)
+![Cloud Endpoint](Endpoint.png)
+
+#### Live Inference Verification (Real-Time API)
+To verify the deployment, I tested the endpoint with multiple patient profiles to ensure the model correctly distinguishes between risk levels.
+
+**Test Case 1: Low-Risk Verification**
+![Low Risk Prediction](Test1.png)
+
+**Test Case 2: High-Risk Identification**
+![High Risk Prediction](Test2.png)
