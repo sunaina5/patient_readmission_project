@@ -47,3 +47,15 @@ Official Dataset Source
     3. Deployment: Managed Online Endpoints, Docker.
     4. IDE: VS Code with Azure ML Extension.
 
+🏗️ Technical Directory Structure
+     
+    The repository is architected into logical modules:
+    
+    1. environment/: The "Blueprints" — Contains the Conda and Docker definitions. 
+    2. src/: The "Logic" — Contains train.py (training pipeline) and score.py (inference logic).
+    3. model/: The "Artifacts" — The serialized model.pkl ready for cloud consumption. 
+    4. Root/: The "Management" — Contains main.py and YAML blueprints for infrastructure orchestration.
+
+<img width="1024" height="1<img width="561" height="210" alt="Workflow" src="https://github.com/user-attachments/assets/a337a5c9-54a8-4fed-bf82-27d50f713140" />
+024" alt="image" src="https://github.com/user-attachments/assets/b3f55ba2-a681-42e8-afb8-990e0cddcbd4" />
+
