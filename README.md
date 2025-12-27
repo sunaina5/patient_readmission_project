@@ -1,8 +1,13 @@
 🏥 Patient Readmission Risk Prediction (Azure MLOps)
 
-    This project delivers a production-grade, end-to-end MLOps workflow on Microsoft Azure Machine Learning to predict 30-day hospital readmission risk.
-    Using the UCI Diabetes 130-US Hospitals dataset, I built and deployed a cloud-native ML system that transitions from local development to a scalable Managed Online Endpoint, serving real-time predictions via a REST API.
-    The solution demonstrates hands-on experience with Azure ML, containerized inference, reproducible environments, and deployment-level debugging, reflecting real-world enterprise MLOps practices.
+    This project delivers a production-grade, end-to-end MLOps workflow on Microsoft Azure Machine Learning 
+    to predict 30-day hospital readmission risk.
+    
+    Using the UCI Diabetes 130-US Hospitals dataset, I built and deployed a cloud-native ML system that transitions from 
+    local development to a scalable Managed Online Endpoint, serving real-time predictions via a REST API.
+    
+    The solution demonstrates hands-on experience with Azure ML, containerized inference, reproducible environments, and 
+    deployment-level debugging, reflecting real-world enterprise MLOps practices.
 
 
 
