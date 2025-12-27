@@ -55,7 +55,10 @@ Official Dataset Source
     2. src/: The "Logic" — Contains train.py (training pipeline) and score.py (inference logic).
     3. model/: The "Artifacts" — The serialized model.pkl ready for cloud consumption. 
     4. Root/: The "Management" — Contains main.py and YAML blueprints for infrastructure orchestration.
+    
+ <img width="351" height="667" alt="VScode" src="https://github.com/user-attachments/assets/41ca423b-be3a-4ba9-be9c-b4c896680168" />
+ <img width="1632" height="640" alt="Workflow" src="https://github.com/user-attachments/assets/b2597aa4-8960-4392-9266-11ac87af1342" />
 
-<img width="561" height="210" alt="Workflow" src="https://github.com/user-attachments/assets/a980b52b-8b5d-41cf-b726-f9e861ce6b46" />
+
 
 
